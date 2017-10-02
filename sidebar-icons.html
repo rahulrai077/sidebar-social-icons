@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+		<head>
+			<meta charset="UTF-8" />			
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Sidebar Icons</title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<style>
+			* {margin: 0px; padding: 0px; box-sizing: border-box;}
+			.social {position: fixed; top: 50%; left: 0; transform: translate(0, -50%);}
+			.social ul { list-style: none; -webkit-transform: translate(-274px, 1px); -moz-transform: translate(-274px, 1px); -ms-transform: translate(-274px, 1px); -o-transform: translate(-274px, 1px);  transform: translate(-274px, 1px); }
+			.social ul li { display: block; background: rgba(0, 0, 0, 0.36); width: 300px; text-align: right; /*padding: 5px;*/ -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; border: 1px solid; overflow: hidden; }
+			.social ul li a { color: #000; display: block; width:25px; height: 25px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; float: right;}
+			.social ul li:first-child i:after { content: ""; height: 25px; width: 25px; background-image:url("images/fb-icon.png") ; background-position: 0px 0px; display: block; background-repeat: no-repeat;}
+
+			.social ul li:nth-child(2) i:after { content: ""; height: 25px; width: 25px; background-image:url("images/twt-icon.png") ; background-position: 0px 0px; display: block; background-repeat: no-repeat;}
+
+			.social ul li:nth-child(3) i:after { content: ""; height: 25px; width: 25px; background-image:url("images/ytube-icon.png") ; background-position: 0px 0px; display: block; background-repeat: no-repeat;}
+
+			.social ul li:nth-child(4) i:after { content: ""; height: 25px; width: 25px; background-image:url("images/linked-icon.png") ; background-position: 0px 0px; display: block; background-repeat: no-repeat;}
+			.social ul li:hover { -webkit-transform: translate(100px, 0); -moz-transform: translate(100px, 0); -ms-transform: translate(100px, 0); -o-transform: translate(100px, 0); transform: translate(100px, 0); background-color:#fff; }
+			</style>
+		</head>
+		<body>
+			
+		<div class="social">
+          <ul>
+              <li><a href="https://twitter.com/gian_michelle"> <i class="twitter-icon" aria-hidden="true"></i></a></li>
+              <li><a href="https://facebook.com/"> <i class="facebook-icon" aria-hidden="true"></i></a></li>
+              <li><a href="http://youtube.com/"><i class="youtube-play-icon" aria-hidden="true"></i></a></li>
+              <li><a href="https://in.linkedin.com/"> <i class="linkedin-icon" aria-hidden="true"></i></a></li>
+          </ul>
+      </div>
+		</body>
+	</html>
